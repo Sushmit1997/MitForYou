@@ -1,238 +1,420 @@
 <html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Omnifood is a premium food delivery service with the mission to bring affordable
-    and healthy meals to people.">
-<link rel="stylesheet" type="text/css" href="resources/css/style.css">
-<link rel="stylesheet" type="text/css" href="resources/css/queries.css">
-<link rel="stylesheet" type="text/css" href="vendors/css/normalize.css">
-<link rel="stylesheet" type="text/css" href="vendors/css/ionicons.min.css">
-<link rel="stylesheet" href="vendors/css/animate.css">
-<link rel="stylesheet" href="vendors/css/grid.css">
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,400&display=swap" rel="stylesheet">
-<link rel="shortcut icon" type="image/x-icon" href="favicon.png" />
-<title>MitForYou</title>
-</head>
-<body>
-<header>
-<nav>
-<div class="row">
-<img src="resources/img/logo.png" alt="omnifood logo" class="logo">
-<img src="resources/img/logo.png" alt="omnifood logo" class="logo-black">
-<ul class="main-nav js-main-nav">
-<li><a href="#features"> Apps</a></li>
-<li><a href="#vlog"> VLOG</a></li>
-<li><a href="#working"> Weather App</a></li>
-<li><a href="#forkify"> forkify</a></li>
-</ul>
-<a class="mobile-nav-icon js-nav-icon"> <i class="ion-navicon-round"></i></a>
-</div>
-</nav>
-<div class="hero-text-box">
-<h1>Run it again. <br> Even if you didn't change anything.</h1>
-<a class="btn btn-full js--scroll-to-apps" href="#">My Apps </a>
-<a class="btn btn-ghost js--scroll-to-start" target="_blank" href="https://sushmit1997.github.io/sushmitlives/vlog.html">Other contents</a>
-</div>
-</header>
-<section class="section-features js--section-apps" id="features">
-<div class="row">
-<h2>My Apps and Projects</h2>
-<p class="long-copy">
-Hello, I'm a newbie developer. These are some applications and some projects that I've experimented on. I've mainly used vanilla JavaScript for these projects. Feel free to check them out.
-</p>
-</div>
-<div class="row js-wp-1">
-<div class="col span-1-of-4 box">
-<a class="logo-link" target="_blank" href="https://sushmit1997.github.io/Weather-App/"><img src="resources/img/weather.png" class="img-fluid logo-small" alt="Weather App logo"></a>
-<br>
-<h3>Weather App</h3>
-<p>A beautiful app developed using vanilla JavaScript that gives you information about current weather of the location that you have entered.You can also set default location so that you dont have to enter it everytime you use the app.</p>
-</div>
-<div class="col span-1-of-4 box">
-<a class="logo-link" href="https://sushmit1997.github.io/Forkify-App/" target="_blank"><img src="resources/img/forkify.png" alt="forkify logo" class="logo-small"></a>
-<h3>Food Recipe Finder</h3>
-<p>A JavaScript app that searches the recipes of the meal according to your wish, displays ingredients required to make the meal and also save recipe as your favourite for future use.</p>
-</div>
-<div class="col span-1-of-4 box">
-<a class="logo-link" href="https://sushmit1997.github.io/BudgetApp/" target="_blank"><img src="resources/img/budgetify.png" alt="budgetify logo" class="logo-small"></a>
-<h3>Budget App</h3>
-<p>App to keep track of your daily incomes and expenditures and show detailed information on what item expenditure is more to make you self aware about your spending habits.</p>
-</div>
-<div class="col span-1-of-4 box">
-<a class="logo-link" href="https://sushmit1997.github.io/ToDo-App/" target="_blank"><img src="resources/img/todolist.png" alt="todolist logo" class="logo-small"></a>
-<h3>To-Do List App</h3>
-<p>As the name suggests, this app helps you to keep record of things that you have done or should be doing in a fancy manner. Data is stored in LocalStorage so no data is lost when you reload it.</p>
-</div>
-</div>
-</section>
-<br>
-<section class="section-video" id="vlog">
-<div class="row">
-<h2> Vlogger inside me</h2>
-</div>
-<div class="row">
-<div class="col span-1-of-2 steps-box">
-<iframe class="js-wp-5" width="500" height="315" src="https://www.youtube.com/embed/qx_EkVCA45I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" style="border-radius:25;overflow:hidden" allowfullscreen></iframe>
-</div>
-<div class="col span-1-of-2 steps-box">
-<h3>Dang-Dailekh-Surkhet Road Trip</h3>
-<p>I got an oppurtunity to visit Dailekh disctrict which lies in western region of Nepal because of my father's official work. I love to travel, So, I couldn't miss this chance to see the district and places that I have only read about in books and seen on news. On the way we also got a chance to visit my hometown Dang. Also I returned to Surkhet after 18 years. We used to live in Surkhet when I was a toddler. This is video from December 2019.</p>
-</div>
-</div>
-</section>
-<div class="clearfix"></div>
-<section class="section-steps" id="working">
-<div class="row">
-<h2> Live Weather Info &mdash; Simple as 1, 2, 3</h2>
-</div>
-<div class="row">
-<div class="col span-1-of-2 steps-box">
-<img src="resources/img/app-iPhone.png" alt="omnifood app on iphone" class="app-screen js-wp-2">
-</div>
-<div class="col span-1-of-2 steps-box">
-<div class="works-step">
-<div>1</div>
-<p>Enter your current location. The location is a query that will be requested to Openweather API</p>
-</div>
-<div class="works-step">
-<div>2</div>
-<p>The current temperature of your location and maximum and minimum temperature is displayed.</p>
-</div>
-<div class="works-step">
-<div>3</div>
-<p>Set default location so that you don't have to enter your location each time you use the app.</p>
-</div>
-<a target="_blank" href="https://sushmit1997.github.io/Weather-App/" class="btn btn-weather-app">Click To Test App </a>
-</div>
-</div>
-</section>
-<section class="section-testimonials">
-<div class="row">
-<h2>Words that i live by </h2>
-</div>
-<div class="row">
-<div class="col span-1-of-3">
-<blockquote>
-HOWEVER DIFFICULT LIFE MAY SEEM, THERE IS ALWAYS SOMETHING YOU CAN DO AND SUCCEED AT.
-<br>
-<br>
-<cite> <img src="resources/img/customer-1.jpg"> Stephen Hawkins</cite>
-</blockquote>
-</div>
-<div class="col span-1-of-3">
-<blockquote>
-MY FAVOURITE THINGS IN LIFE DON'T COST ANY MONEY. IT'S REALLY CLEAR THAT THE MOST PRECIOUS RESOURCE WE ALL HAVE IS TIME.
-<cite> <img src="resources/img/customer-2.jpg"> Steve Jobs</cite>
-</blockquote>
-</div>
-<div class="col span-1-of-3">
-<blockquote>
-THE BIG LESSON IN LIFE, BABY, IS NEVER BE SCARED OF ANYONE OR ANYTHING.
-<br>
-<br>
-<br>
-<cite> <img src="resources/img/customer-3.jpg">Frank Sinatra</cite>
-</blockquote>
-</div>
-</div>
-</section>
-<section class="section-recipe" id="forkify">
-<div class="row">
-<h2> Find great recipes for your favourite food</h2>
-</div>
-<div class="row">
-<div class="col span-1-of-2 ipad-box">
-<div class="works-step">
-<div>1</div>
-<p>Search your favourite meal by entering in search box and press enter.</p>
-</div>
-<div class="works-step">
-<div>2</div>
-<p>Get exciting recipes of your favourite meals from various different websites all brought together in one place.</p>
-</div>
-<div class="works-step">
-<div>3</div>
-<p>Click one of the recipes to view details search as ingredients required and the amount of ingredient needed.</p>
-</div>
-<div class="works-step">
-<div>4</div>
-<p>Add the ingredients required to your shopping list and also save recipe as your favourite for future projects.</p>
-</div>
-<a target="_blank" href="https://sushmit1997.github.io/Forkify-App/" class="btn btn-weather-app">Click To Try Forkify </a>
-</div>
-<div class="col span-1-of-2 ipad-box">
-<img src="resources/img/app-iPad.png" alt="omnifood app on iphone" class="app-screen-ipad js-wp-6">
-</div>
-</div>
-</section>
-<section class="section-meals">
-<ul class="meals-showcase">
-<li>
-<figure class="meal-photo">
-<img src="resources/img/1.jpg" alt="Korean bibimbap with egg and vegetables">
-</figure>
-</li>
-<li>
-<figure class="meal-photo">
-<img src="resources/img/2.jpg" alt="Simple italian pizza with cherry tomatoes">
-</figure>
-</li>
-<li>
-<figure class="meal-photo">
-<img src="resources/img/3.jpg" alt="Chicken breast steak with vegetables">
-</figure>
-</li>
-<li>
-<figure class="meal-photo">
-<img src="resources/img/4.jpg" alt="Autumn pumpkin soup">
-</figure>
-</li>
-</ul>
-<ul class="meals-showcase clearfix">
-<li>
-<figure class="meal-photo">
-<img src="resources/img/5.jpg" alt="Paleo beef steak with vegetables">
-</figure>
-</li>
-<li>
-<figure class="meal-photo">
-<img src="resources/img/6.jpg" alt="Healthy baguette with egg and vegetables">
-</figure>
-</li>
-<li>
-<figure class="meal-photo">
-<img src="resources/img/7.jpg" alt="Burger with cheddar and bacon">
-</figure>
-</li>
-<li>
-<figure class="meal-photo">
-<img src="resources/img/8.jpg" alt="Granola with cherries and strawberries">
-</figure>
-</li>
-</ul>
-</section>
-<footer>
-<div class="row">
-<div class="col span-1-of-2 copy">
-Copyright &copy; 2020 by MitForYou. All rights reserved.
-</div>
-<div class="col span-1-of-2">
-<ul class="social-links">
-<li><a target="_blank" href="https://www.facebook.com/sushmit.rajaure"><i class="ion-social-facebook"></i></a></li>
-<li><a target="_blank" href="https://www.instagram.com/sushmit_rajaure/"><i class="ion-social-instagram"></i></a></li>
-<li><a target="_blank" href="https://twitter.com/sushmit_rajaure"><i class="ion-social-twitter"></i></a></li>
-<li><a target="_blank" href="https://www.youtube.com/channel/UCzplO-BDi_ETV_Oygdpz21g?view_as=subscriber"><i class="ion-social-youtube"></i></a></li>
-</ul>
-</div>
-</div>
-</footer>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/selectivizr/1.0.2/selectivizr-min.js"></script>
-<script src="vendors/js/jquery.waypoints.min.js"></script>
-<script src="resources/js/script.js"></script>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Omnifood is a premium food delivery service with the mission to bring affordable
+    and healthy meals to people."
+    />
+    <link rel="stylesheet" type="text/css" href="resources/css/style.css" />
+    <link rel="stylesheet" type="text/css" href="resources/css/queries.css" />
+    <link rel="stylesheet" type="text/css" href="vendors/css/normalize.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="vendors/css/ionicons.min.css"
+    />
+    <link rel="stylesheet" href="vendors/css/animate.css" />
+    <link rel="stylesheet" href="vendors/css/grid.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.png" />
+    <title>MitForYou</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="row">
+          <img src="resources/img/logo.png" alt="omnifood logo" class="logo" />
+          <img
+            src="resources/img/logo.png"
+            alt="omnifood logo"
+            class="logo-black"
+          />
+          <ul class="main-nav js-main-nav">
+            <li><a href="#features"> Apps</a></li>
+            <li><a href="#vlog"> VLOG</a></li>
+            <li><a href="#working"> Weather App</a></li>
+            <li><a href="#forkify"> forkify</a></li>
+          </ul>
+          <a class="mobile-nav-icon js-nav-icon">
+            <i class="ion-navicon-round"></i
+          ></a>
+        </div>
+      </nav>
+      <div class="hero-text-box">
+        <h1>
+          Run it again. <br />
+          Even if you didn't change anything.
+        </h1>
+        <a class="btn btn-full js--scroll-to-apps" href="#">My Apps </a>
+        <a
+          class="btn btn-ghost js--scroll-to-start"
+          target="_blank"
+          href="https://sushmit1997.github.io/sushmitlives/vlog.html"
+          >Other contents</a
+        >
+      </div>
+    </header>
+    <section class="section-features js--section-apps" id="features">
+      <div class="row">
+        <h2>My Apps and Projects</h2>
+        <p class="long-copy">
+          Hello, I'm a newbie developer. These are some applications and some
+          projects that I've experimented on. I've mainly used vanilla
+          JavaScript for these projects. Feel free to check them out.
+        </p>
+      </div>
+      <div class="row js-wp-1">
+        <div class="col span-1-of-4 box">
+          <a
+            class="logo-link"
+            target="_blank"
+            href="https://sushmit1997.github.io/Weather-App/"
+            ><img
+              src="resources/img/weather.png"
+              class="img-fluid logo-small"
+              alt="Weather App logo"
+          /></a>
+          <br />
+          <h3>Weather App</h3>
+          <p>
+            A beautiful app developed using vanilla JavaScript that gives you
+            information about current weather of the location that you have
+            entered.You can also set default location so that you dont have to
+            enter it everytime you use the app.
+          </p>
+        </div>
+        <div class="col span-1-of-4 box">
+          <a
+            class="logo-link"
+            href="https://sushmit1997.github.io/Forkify-App/"
+            target="_blank"
+            ><img
+              src="resources/img/forkify.png"
+              alt="forkify logo"
+              class="logo-small"
+          /></a>
+          <h3>Food Recipe Finder</h3>
+          <p>
+            A JavaScript app that searches the recipes of the meal according to
+            your wish, displays ingredients required to make the meal and also
+            save recipe as your favourite for future use.
+          </p>
+        </div>
+        <div class="col span-1-of-4 box">
+          <a
+            class="logo-link"
+            href="https://sushmit1997.github.io/BudgetApp/"
+            target="_blank"
+            ><img
+              src="resources/img/budgetify.png"
+              alt="budgetify logo"
+              class="logo-small"
+          /></a>
+          <h3>Budget App</h3>
+          <p>
+            App to keep track of your daily incomes and expenditures and show
+            detailed information on what item expenditure is more to make you
+            self aware about your spending habits.
+          </p>
+        </div>
+        <div class="col span-1-of-4 box">
+          <a
+            class="logo-link"
+            href="https://sushmit1997.github.io/Street_Fighter/index.html"
+            target="_blank"
+            ><img
+              src="resources/img/sf_logo.png"
+              alt="todolist logo"
+              class="logo-small"
+          /></a>
+          <h3>Street Fighter</h3>
+          <p>
+            A pure JavaScript project build to emulate the famous fighting game
+            'Street Fighter'. With 4 playable characters and powers this is the
+            project I made for my final project at LeapFrog Technology.
+          </p>
+        </div>
+      </div>
+    </section>
+    <br />
+    <section class="section-video" id="vlog">
+      <div class="row">
+        <h2>Vlogger inside me</h2>
+      </div>
+      <div class="row">
+        <div class="col span-1-of-2 steps-box">
+          <iframe
+            class="js-wp-5"
+            width="500"
+            height="315"
+            src="https://www.youtube.com/embed/qx_EkVCA45I"
+            frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            style="border-radius: 25; overflow: hidden;"
+            allowfullscreen
+          ></iframe>
+        </div>
+        <div class="col span-1-of-2 steps-box">
+          <h3>Dang-Dailekh-Surkhet Road Trip</h3>
+          <p>
+            I got an oppurtunity to visit Dailekh disctrict which lies in
+            western region of Nepal because of my father's official work. I love
+            to travel, So, I couldn't miss this chance to see the district and
+            places that I have only read about in books and seen on news. On the
+            way we also got a chance to visit my hometown Dang. Also I returned
+            to Surkhet after 18 years. We used to live in Surkhet when I was a
+            toddler. This is video from December 2019.
+          </p>
+        </div>
+      </div>
+    </section>
+    <div class="clearfix"></div>
+    <section class="section-steps" id="working">
+      <div class="row">
+        <h2>Live Weather Info &mdash; Simple as 1, 2, 3</h2>
+      </div>
+      <div class="row">
+        <div class="col span-1-of-2 steps-box">
+          <img
+            src="resources/img/app-iPhone.png"
+            alt="omnifood app on iphone"
+            class="app-screen js-wp-2"
+          />
+        </div>
+        <div class="col span-1-of-2 steps-box">
+          <div class="works-step">
+            <div>1</div>
+            <p>
+              Enter your current location. The location is a query that will be
+              requested to Openweather API
+            </p>
+          </div>
+          <div class="works-step">
+            <div>2</div>
+            <p>
+              The current temperature of your location and maximum and minimum
+              temperature is displayed.
+            </p>
+          </div>
+          <div class="works-step">
+            <div>3</div>
+            <p>
+              Set default location so that you don't have to enter your location
+              each time you use the app.
+            </p>
+          </div>
+          <a
+            target="_blank"
+            href="https://sushmit1997.github.io/Weather-App/"
+            class="btn btn-weather-app"
+            >Click To Test App
+          </a>
+        </div>
+      </div>
+    </section>
+    <section class="section-testimonials">
+      <div class="row">
+        <h2>Words that i live by</h2>
+      </div>
+      <div class="row">
+        <div class="col span-1-of-3">
+          <blockquote>
+            HOWEVER DIFFICULT LIFE MAY SEEM, THERE IS ALWAYS SOMETHING YOU CAN
+            DO AND SUCCEED AT.
+            <br />
+            <br />
+            <cite>
+              <img src="resources/img/customer-1.jpg" /> Stephen Hawkins</cite
+            >
+          </blockquote>
+        </div>
+        <div class="col span-1-of-3">
+          <blockquote>
+            MY FAVOURITE THINGS IN LIFE DON'T COST ANY MONEY. IT'S REALLY CLEAR
+            THAT THE MOST PRECIOUS RESOURCE WE ALL HAVE IS TIME.
+            <cite> <img src="resources/img/customer-2.jpg" /> Steve Jobs</cite>
+          </blockquote>
+        </div>
+        <div class="col span-1-of-3">
+          <blockquote>
+            THE BIG LESSON IN LIFE, BABY, IS NEVER BE SCARED OF ANYONE OR
+            ANYTHING.
+            <br />
+            <br />
+            <br />
+            <cite>
+              <img src="resources/img/customer-3.jpg" />Frank Sinatra</cite
+            >
+          </blockquote>
+        </div>
+      </div>
+    </section>
+    <section class="section-recipe" id="forkify">
+      <div class="row">
+        <h2>Find great recipes for your favourite food</h2>
+      </div>
+      <div class="row">
+        <div class="col span-1-of-2 ipad-box">
+          <div class="works-step">
+            <div>1</div>
+            <p>
+              Search your favourite meal by entering in search box and press
+              enter.
+            </p>
+          </div>
+          <div class="works-step">
+            <div>2</div>
+            <p>
+              Get exciting recipes of your favourite meals from various
+              different websites all brought together in one place.
+            </p>
+          </div>
+          <div class="works-step">
+            <div>3</div>
+            <p>
+              Click one of the recipes to view details search as ingredients
+              required and the amount of ingredient needed.
+            </p>
+          </div>
+          <div class="works-step">
+            <div>4</div>
+            <p>
+              Add the ingredients required to your shopping list and also save
+              recipe as your favourite for future projects.
+            </p>
+          </div>
+          <a
+            target="_blank"
+            href="https://sushmit1997.github.io/Forkify-App/"
+            class="btn btn-weather-app"
+            >Click To Try Forkify
+          </a>
+        </div>
+        <div class="col span-1-of-2 ipad-box">
+          <img
+            src="resources/img/app-iPad.png"
+            alt="omnifood app on iphone"
+            class="app-screen-ipad js-wp-6"
+          />
+        </div>
+      </div>
+    </section>
+    <section class="section-meals">
+      <ul class="meals-showcase">
+        <li>
+          <figure class="meal-photo">
+            <img
+              src="resources/img/1.jpg"
+              alt="Korean bibimbap with egg and vegetables"
+            />
+          </figure>
+        </li>
+        <li>
+          <figure class="meal-photo">
+            <img
+              src="resources/img/2.jpg"
+              alt="Simple italian pizza with cherry tomatoes"
+            />
+          </figure>
+        </li>
+        <li>
+          <figure class="meal-photo">
+            <img
+              src="resources/img/3.jpg"
+              alt="Chicken breast steak with vegetables"
+            />
+          </figure>
+        </li>
+        <li>
+          <figure class="meal-photo">
+            <img src="resources/img/4.jpg" alt="Autumn pumpkin soup" />
+          </figure>
+        </li>
+      </ul>
+      <ul class="meals-showcase clearfix">
+        <li>
+          <figure class="meal-photo">
+            <img
+              src="resources/img/5.jpg"
+              alt="Paleo beef steak with vegetables"
+            />
+          </figure>
+        </li>
+        <li>
+          <figure class="meal-photo">
+            <img
+              src="resources/img/6.jpg"
+              alt="Healthy baguette with egg and vegetables"
+            />
+          </figure>
+        </li>
+        <li>
+          <figure class="meal-photo">
+            <img
+              src="resources/img/7.jpg"
+              alt="Burger with cheddar and bacon"
+            />
+          </figure>
+        </li>
+        <li>
+          <figure class="meal-photo">
+            <img
+              src="resources/img/8.jpg"
+              alt="Granola with cherries and strawberries"
+            />
+          </figure>
+        </li>
+      </ul>
+    </section>
+    <footer>
+      <div class="row">
+        <div class="col span-1-of-2 copy">
+          Copyright &copy; 2020 by MitForYou. All rights reserved.
+        </div>
+        <div class="col span-1-of-2">
+          <ul class="social-links">
+            <li>
+              <a target="_blank" href="https://www.facebook.com/sushmit.rajaure"
+                ><i class="ion-social-facebook"></i
+              ></a>
+            </li>
+            <li>
+              <a
+                target="_blank"
+                href="https://www.instagram.com/sushmit_rajaure/"
+                ><i class="ion-social-instagram"></i
+              ></a>
+            </li>
+            <li>
+              <a target="_blank" href="https://twitter.com/sushmit_rajaure"
+                ><i class="ion-social-twitter"></i
+              ></a>
+            </li>
+            <li>
+              <a
+                target="_blank"
+                href="https://www.youtube.com/channel/UCzplO-BDi_ETV_Oygdpz21g?view_as=subscriber"
+                ><i class="ion-social-youtube"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/selectivizr/1.0.2/selectivizr-min.js"></script>
+    <script src="vendors/js/jquery.waypoints.min.js"></script>
+    <script src="resources/js/script.js"></script>
+  </body>
 </html>
