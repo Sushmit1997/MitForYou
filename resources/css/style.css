@@ -452,13 +452,13 @@ footer {
 .social-links li a:visited {
   font-size: 150%;
 }
-.ion-social-facebook,
+.ion-social-github,
 .ion-social-instagram,
 .ion-social-twitter,
 .ion-social-youtube {
   transition: color 0.2s;
 }
-.ion-social-facebook:hover {
+.ion-social-github:hover {
   color: #3b5998;
 }
 .ion-social-twitter:hover {
